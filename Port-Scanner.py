@@ -20,10 +20,10 @@ __     __  ___   ____   _____  _____  __  __  ____    ____    _      _   _
 *  NEXUSSCAN - Network Port Scanner                             *
 *  Developed By - Hariom Singh                                  *
 *  Email-id - hariomsingh28453@gmail.com                        *
-*  GitHub Profile - github.com/hariom045418                     *
-*  LinkedIn Profile - linkedin.com/in/hariom-singh-75244b328/   *
-*  Features    - TCP Port Scanning, Service Detection,          *
-*               Host Resolution & URL Target Support            *
+*  GitHub Profile - github.com/hariomsingh045                   *
+*  LinkedIn Profile - linkedin.com/in/hariomsingh045            *
+*  Features - TCP Port Scanning, Service Detection,             *
+*             Host Resolution & URL Target Support              *
 *****************************************************************
 """ + RESET)
 
