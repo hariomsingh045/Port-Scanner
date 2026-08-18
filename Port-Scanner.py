@@ -10,19 +10,19 @@ start=time.time()
 GREEN = "\033[92m"
 
 print(GREEN + r"""
- __     _____  ____ _____ _____  ______     ____    _    _   _ 
- \ \   / / _ \|  _ \_   _| ____|  \/  \ \   / / ___|  / \  | \ | |
-  \ \ / / | | | |_) || | |  _| | |\/| |\ \ / /\___ \ / _ \ |  \| |
-   \ V /| |_| |  _ < | | | |___| |  | | \ V /  ___) / ___ \| |\  |
-    \_/  \___/|_| \_\|_| |_____|_|  |_|  \_/  |____/_/   \_\_| \_|
+__     __  ___   ____   _____  _____  __  __  ____    ____    _      _   _ 
+\ \   / / / _ \ |  _ \ |_   _|| ____| \ \/ / / ___|  / ___|  / \    | \ | |
+ \ \ / / | | | || |_) |  | |  |  _|    \  /  \___ \ | |     / _ \   |  \| |
+  \ V /  | |_| ||  _ <   | |  | |___   /  \\   ___) || |___ / ___ \ | |\  |
+   \_/    \___/ |_| \_\  |_|  |_____| /_/\_\|____/  \____|/_/   \_\_|_| \_|
 
 *****************************************************************
-*  NEXUSSCAN - Network Port Scanner                            *
-*  Developed By - Hariom Singh                                 *
-*  Email       - hariomsingh28453@gmail.com                    *
-*  GitHub      - github.com/hariom045418                       *
-*  LinkedIn    - linkedin.com/in/hariom-singh-75244b328/       *
-*  Features    - TCP Port Scanning, Service Detection,         *
+*  NEXUSSCAN - Network Port Scanner                             *
+*  Developed By - Hariom Singh                                  *
+*  Email-id - hariomsingh28453@gmail.com                        *
+*  GitHub Profile - github.com/hariom045418                     *
+*  LinkedIn Profile - linkedin.com/in/hariom-singh-75244b328/   *
+*  Features    - TCP Port Scanning, Service Detection,          *
 *               Host Resolution & URL Target Support            *
 *****************************************************************
 """ + RESET)
