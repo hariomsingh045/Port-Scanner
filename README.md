@@ -1,8 +1,8 @@
-# NEXUSSCAN
+# VORTEXSCAN 
 
 ### Lightweight Command-Line TCP Port Scanner
 
-NEXUSSCAN is a lightweight command-line TCP port scanner written in Python. It is designed for authorized security testing, cybersecurity labs, network reconnaissance, and educational purposes.
+VORTEXSCAN  is a lightweight command-line TCP port scanner written in Python. It is designed for authorized security testing, cybersecurity labs, network reconnaissance, and educational purposes.
 
 The tool accepts an IP address, domain name, or URL and can scan individual ports, multiple ports, or custom port ranges.
 
@@ -35,55 +35,54 @@ Clone the repository:
 
 ```bash
 git clone https://github.com/hariom045418/Port-Scanner.git
-cd Port-Scanner
 ```
 
 Make the script executable:
 
 ```bash
-chmod +x nexusscan.py
+chmod +x Port-Scanner.py
 ```
 
 ## Usage
 
 ### Basic Scan
 
-By default, NEXUSSCAN scans ports 1-1000.
+By default, Port-Scanner scans ports 1-1000.
 
 ```bash
-python3 nexusscan.py -t 127.0.0.1
+python3 Port-Scanner.py -t 127.0.0.1
 ```
 
 ### Custom Port Range
 
 ```bash
-python3 nexusscan.py -t 127.0.0.1 -p 1-10000
+python3 Port-Scanner.py -t 127.0.0.1 -p 1-10000
 ```
 
 ### Specific Ports
 
 ```bash
-python3 nexusscan.py -t 127.0.0.1 -p 22,80,443,8080
+python3 Port-Scanner.py -t 127.0.0.1 -p 22,80,443,8080
 ```
 
 ### Scan a Domain
 
 ```bash
-python3 nexusscan.py -t example.com
+python3 Port-Scanner.py -t example.com
 ```
 
 ### Scan a URL
 
 ```bash
-python3 nexusscan.py -t http://127.0.0.1:8080
+python3 Port-Scanner.py -t http://127.0.0.1:8080
 ```
 
-If the URL contains an explicit port, NEXUSSCAN automatically extracts and scans that port.
+If the URL contains an explicit port, Port-Scanner automatically extracts and scans that port.
 
 ### Verbose Mode
 
 ```bash
-python3 nexusscan.py -t 127.0.0.1 -v
+python3 Port-Scanner.py -t 127.0.0.1 -v
 ```
 
 ## Command-Line Options
@@ -112,7 +111,7 @@ PORT     STATE      SERVICE
 
 ## How It Works
 
-NEXUSSCAN follows a simple reconnaissance workflow:
+Port-Scanner follows a simple reconnaissance workflow:
 
 ```text
 Target
@@ -136,7 +135,7 @@ Service Detection
 Scan Results
 ```
 
-For each selected port, NEXUSSCAN attempts to establish a TCP connection.
+For each selected port, Port-Scanner attempts to establish a TCP connection.
 
 ```text
 TCP Connection
@@ -150,7 +149,7 @@ Multiple ports are scanned concurrently to improve performance.
 
 ## Technologies
 
-NEXUSSCAN uses Python's standard library:
+Port-Scanner uses Python's standard library:
 
 - Python 3
 - `socket`
@@ -166,7 +165,7 @@ No third-party Python dependencies are required.
 ```text
 Port-Scanner/
 │
-├── nexusscan.py
+├── Port-Scanner.py
 └── README.md
 ```
 
@@ -186,7 +185,7 @@ This project demonstrates practical understanding of:
 
 ## Responsible Use
 
-NEXUSSCAN is intended only for:
+Port-Scanner is intended only for:
 
 - Authorized penetration testing
 - Cybersecurity laboratories
@@ -207,9 +206,9 @@ Cybersecurity & Computer Science Engineering Student
 
 **Email:** hariomsingh28453@gmail.com
 
-**GitHub:** https://github.com/hariom045418
+**GitHub:** https://github.com/hariomsingh045
 
-**LinkedIn:** https://www.linkedin.com/in/hariom-singh-75244b328/
+**LinkedIn:** https://www.linkedin.com/in/hariomsingh045
 
 ## Future Improvements
 
