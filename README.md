@@ -1,4 +1,4 @@
-# VORTEXSCAN 
+# VORTEXSCAN  
 
 ### Lightweight Command-Line TCP Port Scanner
 
